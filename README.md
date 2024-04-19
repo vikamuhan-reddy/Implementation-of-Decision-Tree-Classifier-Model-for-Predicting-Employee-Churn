@@ -8,17 +8,17 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
-1.Start with the entire dataset.
-2.Select the best feature to split the data.
-3.Split the dataset into subsets based on the selected feature.
-4.Recursively apply steps 2 and 3 to each subset until a stopping condition is met.
-5.All data points in a subset belong to the same class.
-6.No more features to split on.
-7.Maximum tree depth is reached.
-8.Minimum number of samples in a node is reached.
-9.Assign the majority class of the leaf node as the predicted class.
-10.Prune the tree if necessary to prevent overfitting.
-11.Evaluate the model's performance using metrics like accuracy or F1-score.
+1. Start with the entire dataset.
+2. Select the best feature to split the data.
+3. Split the dataset into subsets based on the selected feature.
+4. Recursively apply steps 2 and 3 to each subset until a stopping condition is met.
+5. All data points in a subset belong to the same class.
+6. No more features to split on.
+7. Maximum tree depth is reached.
+8. Minimum number of samples in a node is reached.
+9. Assign the majority class of the leaf node as the predicted class.
+10. Prune the tree if necessary to prevent overfitting.
+11. Evaluate the model's performance using metrics like accuracy or F1-score.
 
 ## Program:
 ```py
