@@ -8,6 +8,9 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
+### Start
+Steps
+
 1. Start with the entire dataset.
 2. Select the best feature to split the data.
 3. Split the dataset into subsets based on the selected feature.
@@ -19,6 +22,8 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 9. Assign the majority class of the leaf node as the predicted class.
 10. Prune the tree if necessary to prevent overfitting.
 11. Evaluate the model's performance using metrics like accuracy or F1-score.
+
+Stop
 
 ## Program:
 ```py
